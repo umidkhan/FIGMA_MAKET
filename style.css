@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Anek Gujarati', sans-serif;
+}
+
+header{
+    background: url(./img/bachground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.list .list_item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Anek Gujarati', sans-serif;
+}
+
+.list .list_item a:hover{
+    color: indigo;
+    transition: .5s;
+}
+
+.header_bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.header_text{
+    font-style: 600;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.header_info{
+    font-style: 400;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.btn_header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #5d00fa 0%, #d70bca 100%);
+    border-radius: 46px;
+    border: none;
+    color: #fff;
+    margin-bottom: 160px;
+    margin-top: 30px;
+}
+
+/*************************************section1 start!************************************/
+
+.section1{
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%) 
+}
+
+.section_box{
+    display: flex;
+    justify-content: center;
+}
+
+.section_info{
+    margin-top: 90px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.card{
+    padding: 20px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 10px;
+    margin-bottom: 160px;
+}
+
+.section_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    /* line-height: 21px; */
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+
+.card_parce{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn_card{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: #fff;
+    color: indigo;
+    padding: 14px 14px;
+    border-radius: 37px;
+    border: none;
+}
+
+.section_card_list{
+    display: flex;
+    justify-content: center;
+}
+
+.section_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_item a:focus{
+    padding: 7px 18px;
+    background: #D70BCA;
+    border-radius: 23px;
+}
+
+.section_item a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
