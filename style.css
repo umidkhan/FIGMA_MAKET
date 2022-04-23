@@ -5,12 +5,14 @@
     list-style: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body{
     font-family: 'Anek Gujarati', sans-serif;
 }
 
 header{
-    background: url(./img/bachground.png);
+    background: url(./img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,9 +23,11 @@ header{
 }
 
 .nav{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     padding-top: 35px;
+    margin-left: 280px;
 }
 
 .list .list_item a{
@@ -92,13 +96,14 @@ header{
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
+    padding-left: 71px;
 }
 
 .card{
     padding: 20px;
     background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
     border-radius: 10px;
-    margin-bottom: 160px;
+    margin-bottom: 20px;
 }
 
 .section_title{
@@ -156,4 +161,62 @@ header{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+}
+
+.section2{
+    background: #000;
+    padding-bottom: 50px;
+}
+
+.input_box{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.title_box{
+    display: flex;
+    justify-content: center;
+}
+
+.section2_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 52px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.section_input{
+    /* display: flex;
+    justify-content: center; */
+   background: #000;
+   color: rgb(180, 161, 161);
+   border: 0.5px solid #D0D0D0;
+   box-sizing: border-box;
+   border-radius: 40px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: 60px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+.paragraf_box{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.smm_icons{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 20px;
+    border-color: #fff;
 }
